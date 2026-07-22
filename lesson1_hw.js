@@ -17,23 +17,21 @@ let number_of_errors;
 let login;
 let name = "Kateryna";
 login = name;
-console.log (login);
+console.log(login);
 
 /* Task - 3
         Створіть 3 змінні в одному рядку з різними значеннями */
 
 let [x, y, z] = [1, "string", true];
-console.log(x, y, z); 
+console.log(x, y, z);
 
 /* Task - 4
         Створіть змінну з іменем myUndefined і встановіть її значення рівним undefined без використання слова "undefined" 
         %%% %%%
         */
-    
-let myUndefined
+
+let myUndefined;
 console.log(myUndefined);
-
-
 
 /* Task - 5
         Вам потрібно записати рядок "I'm lovin' it!" у змінну resultLine.
@@ -60,10 +58,9 @@ let x = 3;
 let y = 4;
 let z = 0;
 
-let digits =  String(x + y) + String(z); //change this line
+let digits = String(x + y) + String(z); //change this line
 
-console.log(digits); 
-
+console.log(digits);
 
 /* Task - 7
         Вам потрібно записати число 100500 у змінну hugeAmount.
@@ -91,9 +88,9 @@ console.log(hugeAmount);
 
 let emptyString = "";
 
-        console.log(emptyString.length);
-        console.log("Think Different".length);
-        console.log((emptyString + 2 + 2 + "22").length);
+console.log(emptyString.length);
+console.log("Think Different".length);
+console.log((emptyString + 2 + 2 + "22").length);
 
 /* Task - 9
         На екран виводиться 4 рядки. Усі вони є яскравим прикладом зловживання великими літерами.
@@ -105,14 +102,16 @@ let emptyString = "";
 */
 
 let title = "Senior Lead Principal Data Analyst";
-let degree = "In college, I Majored in Economics Science and Minored in Musician Studies.";
-let career = "Data Scientist With 3+ Years of Experience in Big Data Analytics.";
+let degree =
+  "In college, I Majored in Economics Science and Minored in Musician Studies.";
+let career =
+  "Data Scientist With 3+ Years of Experience in Big Data Analytics.";
 
-    console.log("RESUME".toLowerCase());
-    console.log(("TITLE: " + title).toLowerCase());
-    console.log(("DEGREE: " + degree).toLowerCase());
-    console.log(("CAREER: " + career).toLowerCase());
- 
+console.log("RESUME".toLowerCase());
+console.log(("TITLE: " + title).toLowerCase());
+console.log(("DEGREE: " + degree).toLowerCase());
+console.log(("CAREER: " + career).toLowerCase());
+
 /* Task - 10
         На екран виводиться 3 рядки. Усі вони є яскравим прикладом зловживання великими літерами.
         Внесіть зміни у код, щоб усі літери у цих рядках були великими.
@@ -124,36 +123,36 @@ let career = "Data Scientist With 3+ Years of Experience in Big Data Analytics."
 let caps = "if I type in caps ";
 let fbi = "фбр";
 
-   console.log(fbi.toUpperCase());
-   console.log("Гекльберрі Фінн".toUpperCase());
-   console.log((caps + "they know I mean business").toUpperCase());
+console.log(fbi.toUpperCase());
+console.log("Гекльберрі Фінн".toUpperCase());
+console.log((caps + "they know I mean business").toUpperCase());
 
 /* Task - 11
         Додайте операції множення, ділення та віднімання.
         Відображати результати двома способами: за допомогою конкатенації та за допомогою шаблонних рядків.
 */
 
-let inputX = 2; 
-let inputY = 3; 
-let x = Number(inputX); 
-let y = Number(inputY); 
+let inputX = 2;
+let inputY = 3;
+let x = Number(inputX);
+let y = Number(inputY);
 
-let sum = inputX + inputY; 
-let dif = inputX - inputY; 
-let prod = inputX * inputY; 
-let quot = inputX / inputY; 
+let sum = inputX + inputY;
+let dif = inputX - inputY;
+let prod = inputX * inputY;
+let quot = inputX / inputY;
 
-    console.log(x + " + " + y + " = " + sum); 
-    console.log(`${x} + ${y} = ${sum}`); 
+console.log(x + " + " + y + " = " + sum);
+console.log(`${x} + ${y} = ${sum}`);
 
-    console.log(x + " - " + y + " = " + dif); 
-    console.log(`${x} - ${y} = ${dif}`); 
+console.log(x + " - " + y + " = " + dif);
+console.log(`${x} - ${y} = ${dif}`);
 
-    console.log(x + " * " + y + " = " + prod); 
-    console.log(`${x} * ${y} = ${prod}`); 
+console.log(x + " * " + y + " = " + prod);
+console.log(`${x} * ${y} = ${prod}`);
 
-    console.log(x + " / " + y + " = " + quot); 
-    console.log(`${x} / ${y} = ${quot}`);
+console.log(x + " / " + y + " = " + quot);
+console.log(`${x} / ${y} = ${quot}`);
 
 /* Task - 12
         Ініціалізуйте змінну message - значення повинно бути створене за домпомогою шаблонного рядка та за допомогою конкотинації
@@ -163,8 +162,31 @@ let quot = inputX / inputY;
 
 let name = "Максим";
 let age = 29;
-let company = "Apple";
-let position = "QA;
 
-let message = "Привіт! Мене звати" + " " + name + " ." + " " + "Мені" + " " + age + " " + "років." + " " + "Я працюю на посаді" + " " +  
-console.log(message); */
+let company = "Apple";
+let position = "QA";
+
+let message =
+  "Привіт! Мене звати" +
+  " " +
+  name +
+  ". " +
+  "Мені" +
+  " " +
+  age +
+  " " +
+  "років." +
+  " " +
+  "Я працюю на посаді" +
+  " " +
+  position +
+  " " +
+  "в компанії" +
+  " " +
+  company +
+  ". ";
+console.log(message);
+
+console.log(
+  `Привіт! Мене звати ${name}. Мені ${age} років. Я працюю на посаді ${position} в компанії ${company}.`,
+);
